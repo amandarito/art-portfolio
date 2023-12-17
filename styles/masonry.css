@@ -1,0 +1,47 @@
+.content {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.grid {
+    margin: 0 auto;
+}
+
+.grid-sizer {
+    width: calc(33.3333% - 20px);
+}
+
+.grid-item {
+    width: calc(33.3333% - 20px);
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 980px) {
+    /* For mobile phones: */
+
+    .grid-sizer {
+        width: calc(50% - 20px);
+    }
+
+    .grid-item {
+        width: calc(50% - 20px)
+    }
+
+    .content {
+        width: 95%;
+    }
+}
+
+.block-holder {
+    line-height: 15px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
