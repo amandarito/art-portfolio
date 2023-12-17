@@ -1,1 +1,1 @@
-for my art portfolio website: [amandataylor.art]() / [amandarito.art]()
+for my art portfolio website: [amandataylor.art](https://amandataylor.art) / [amandarito.art](https://amandarito.art)
